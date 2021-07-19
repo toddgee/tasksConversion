@@ -40,7 +40,7 @@ public class TasksConvert {
 	public static void main(String[] args) {
 
 		TasksConvert tc = new TasksConvert();
-		tc.convert("/home/tod/Desktop/20210700 - Phone-LineageOS/TasksMigration/user.210718-1012.xml");
+		tc.convert(args[0]);
 
 	}
 
